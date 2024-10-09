@@ -32,6 +32,7 @@ body {
   margin: 10px 20px;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -43,3 +44,91 @@ body {
 /* 
     START WRITING YOUR CSS CODE HERE
 */
+.header {
+  overflow: hidden;
+  background-color: lightgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+a.header-link {
+  float: left;
+  color: darkslategrey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 12px;
+}
+
+
+.header-right {
+  float: right;
+  margin-top: 12px;
+}
+
+a:target {
+  background-color: rgb(205, 255, 249);
+}
+
+.left-col{
+  float: left;
+  width: 75%;
+}
+
+.card {
+  background-color: lightcyan;
+  padding:20px;
+  margin-top:20px;
+}
+
+.right-col {
+  float: left;
+  width: 25%;
+  background-color: lightblue;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  a.header-link {
+    text-align: left;
+    color: darkslategrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px;
+  }
+
+  .header-right {
+    margin-top: 12px;
+  }
+
+  .left-col{
+    float: left;
+    width: 100%;
+  }
+
+  .card {
+    background-color: lightcyan;
+    padding:20px;
+    font-size: 30px;
+    margin-top:20px;
+  }
+  
+  .right-col {
+    float: left;
+    width: 100%;
+    background-color: lightblue;
+    padding-left: 20px;
+  }
+
+}
+
